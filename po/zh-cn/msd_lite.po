@@ -19,7 +19,7 @@ msgstr "自动 （CPU线程数）"
 msgid "0 = auto"
 msgstr "0 = 自动"
 
-mmsgid "IGMP Rejoin Time"
+msgid "IGMP Rejoin Time"
 msgstr "IGMP 重新协商时间（秒）"
 
 msgid "0 = off"
