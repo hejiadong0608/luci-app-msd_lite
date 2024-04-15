@@ -1,0 +1,16 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	delete ucitrack.@msd_lite[-1]
+	add ucitrack msd_lite
+	set ucitrack.@msd_lite[-1].init=msd_lite
+	commit ucitrack
+EOF
+
+rm -f /tmp/luci-indexcache
+
+sed -i '/msd_lite/d' /etc/crontabs/root
+echo '0 2 * * * echo "" > /tmp/log/msd_lite.log' >> /etc/crontabs/root
+crontab /etc/crontabs/root
+
+exit 0

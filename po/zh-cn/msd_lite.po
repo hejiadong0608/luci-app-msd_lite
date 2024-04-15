@@ -1,0 +1,26 @@
+msgid "This lightweight version of Multi Stream daemon (msd) Program for organizing IP TV streaming on the network via HTTP"
+msgstr "轻量版的 Multi Stream daemon (msd) Lite ,代替 UDPXY 将 IPTV 流转换为内网的 HTTP 协议服务器"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Source Interface VLAN"
+msgstr "上游VLAN接口"
+
+msgid "Max CPU threads"
+msgstr "最大 CPU 并发线程"
+
+msgid "Auto Threads"
+msgstr "自动 （CPU线程数）"
+
+msgid "0 = auto"
+msgstr "0 = 自动"
+
+mmsgid "IGMP Rejoin Time"
+msgstr "IGMP 重新协商时间（秒）"
+
+msgid "0 = off"
+msgstr "0 = 关闭"
